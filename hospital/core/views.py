@@ -11,7 +11,6 @@ from .models import *
 from .permissions import *
 from .serializers import *
 
-
 class HomeViewSet(ModelViewSet):
     serializer_class = CategorySerializer
     permission_classes = (UsageManager,)
